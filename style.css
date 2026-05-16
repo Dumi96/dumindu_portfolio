@@ -172,3 +172,189 @@ footer{
     text-align:center;
     padding:30px;
 }
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+========================= */
+
+@media(max-width: 992px){
+
+    nav{
+        padding:20px 5%;
+    }
+
+    section{
+        padding:80px 5%;
+    }
+
+    .hero h1{
+        font-size:55px;
+    }
+
+}
+
+@media(max-width: 768px){
+
+    nav{
+        flex-direction:column;
+    }
+
+    nav ul{
+        margin-top:20px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    nav ul li{
+        margin:10px;
+    }
+
+    .hero{
+        height:auto;
+        padding-top:120px;
+        padding-bottom:80px;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .hero h2{
+        font-size:24px;
+    }
+
+    .hero p{
+        font-size:15px;
+    }
+
+    section h2{
+        font-size:35px;
+    }
+
+    .skills-grid,
+    .project-grid{
+        grid-template-columns:1fr;
+    }
+
+    .glass{
+        padding:25px;
+    }
+
+}
+
+@media(max-width: 480px){
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero h2{
+        font-size:20px;
+    }
+
+    .btn{
+        width:100%;
+        display:block;
+    }
+
+    .contact-container{
+        gap:25px;
+    }
+
+    .contact-container a{
+        font-size:30px;
+    }
+
+}
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+========================= */
+
+@media(max-width: 992px){
+
+    nav{
+        padding:20px 5%;
+    }
+
+    section{
+        padding:80px 5%;
+    }
+
+    .hero h1{
+        font-size:55px;
+    }
+
+}
+
+@media(max-width: 768px){
+
+    nav{
+        flex-direction:column;
+    }
+
+    nav ul{
+        margin-top:20px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    nav ul li{
+        margin:10px;
+    }
+
+    .hero{
+        height:auto;
+        padding-top:120px;
+        padding-bottom:80px;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .hero h2{
+        font-size:24px;
+    }
+
+    .hero p{
+        font-size:15px;
+    }
+
+    section h2{
+        font-size:35px;
+    }
+
+    .skills-grid,
+    .project-grid{
+        grid-template-columns:1fr;
+    }
+
+    .glass{
+        padding:25px;
+    }
+
+}
+
+@media(max-width: 480px){
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero h2{
+        font-size:20px;
+    }
+
+    .btn{
+        width:100%;
+        display:block;
+    }
+
+    .contact-container{
+        gap:25px;
+    }
+
+    .contact-container a{
+        font-size:30px;
+    }
+
+} 
