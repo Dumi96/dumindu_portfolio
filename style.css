@@ -489,6 +489,7 @@ footer{
         #ff00ff
     );
 
+    background-clip:text;
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 
@@ -663,6 +664,149 @@ footer{
         height:45px;
 
         font-size:20px;
+
+    }
+
+}
+/* =========================
+   SOCIAL ICONS ADVANCED
+========================= */
+
+.social-icons{
+
+    margin-top:35px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+/* ICON DESIGN */
+
+.social-icons a{
+
+    width:65px;
+    height:65px;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:28px;
+
+    text-decoration:none;
+
+    transition:0.4s ease;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+/* LINKEDIN */
+
+.social-icons .linkedin{
+
+    background:#0077b5;
+
+    color:white;
+
+    box-shadow:
+        0 0 20px rgba(0,119,181,0.5);
+
+}
+
+/* GITHUB */
+
+.social-icons .github{
+
+    background:#171515;
+
+    color:white;
+
+    box-shadow:
+        0 0 20px rgba(255,255,255,0.2);
+
+}
+
+/* GMAIL */
+
+.social-icons .gmail{
+
+    background:#ea4335;
+
+    color:white;
+
+    box-shadow:
+        0 0 20px rgba(234,67,53,0.5);
+
+}
+
+/* HOVER EFFECT */
+
+.social-icons a:hover{
+
+    transform:
+        scale(1.2)
+        translateY(-8px);
+
+}
+
+/* ICON ROTATION */
+
+.social-icons a:hover i{
+
+    animation:iconRotate 0.6s;
+
+}
+
+/* GLOW EFFECT */
+
+.social-icons .linkedin:hover{
+
+    box-shadow:
+        0 0 20px #0077b5,
+        0 0 50px #0077b5;
+
+}
+
+.social-icons .github:hover{
+
+    box-shadow:
+        0 0 20px #ffffff,
+        0 0 50px #ffffff;
+
+}
+
+.social-icons .gmail:hover{
+
+    box-shadow:
+        0 0 20px #ea4335,
+        0 0 50px #ea4335;
+
+}
+
+/* ICON ROTATE */
+
+@keyframes iconRotate{
+
+    0%{
+
+        transform:rotate(0deg);
+
+    }
+
+    100%{
+
+        transform:rotate(360deg);
 
     }
 
