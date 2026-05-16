@@ -6,7 +6,9 @@ var typed = new Typed(".typing", {
 
         "AI Engineer",
         "Machine Learning Enthusiast",
+        "Data Science Enthusiast",
         "Business Analyst",
+        "Credit Risk Analyst",
         "SQL Developer",
         "Dashboard Developer"
 
