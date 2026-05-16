@@ -50,3 +50,20 @@ particlesJS("particles-js", {
     }
 
 });
+
+/* NAVBAR SCROLL EFFECT */
+
+window.addEventListener("scroll", () => {
+
+    const navbar =
+    document.getElementById("navbar");
+
+    navbar.classList.toggle(
+
+        "nav-scrolled",
+
+        window.scrollY > 50
+
+    );
+
+});
