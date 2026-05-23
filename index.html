@@ -161,7 +161,7 @@
 
     <!-- GMAIL -->
 
-<a href="mailto:Dumindu834@gmail.com?subject=Portfolio Inquiry&body=Hello Dumindu,"
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=Dumindu834@gmail.com&su=Portfolio%20Inquiry&body=Hello%20Dumindu,"
     class="gmail"
     target="_blank">
 
@@ -644,10 +644,176 @@
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<!-- =========================
+     AI CHATBOT HTML
+========================= -->
 
+<div class="ai-chatbot">
+
+    <!-- FLOATING BUTTON -->
+
+    <div class="chatbot-button"
+        id="chatbotButton">
+
+        <i class="fas fa-robot"></i>
+
+        <span class="bot-notify">
+
+            AI Assistant
+
+        </span>
+
+    </div>
+
+    <!-- CHAT WINDOW -->
+
+    <div class="chat-window"
+        id="chatWindow">
+
+        <!-- HEADER -->
+
+        <div class="chat-header">
+
+            <div class="header-left">
+
+                <div class="bot-avatar">
+
+                    <i class="fas fa-brain"></i>
+
+                </div>
+
+                <div>
+
+                    <h3>Dumindu AI Assistant</h3>
+
+                    <p>Online Now</p>
+
+                </div>
+
+            </div>
+
+            <i class="fas fa-times"
+                id="closeChat"></i>
+
+        </div>
+
+        <!-- EMAIL SCREEN -->
+
+        <div class="email-screen"
+            id="emailScreen">
+
+            <h2>
+
+                Welcome to Dumindu's Portfolio
+
+            </h2>
+
+            <p>
+
+                Please enter your email to continue
+
+            </p>
+
+            <input type="email"
+                id="visitorEmail"
+                placeholder="Enter your email">
+
+            <button id="startChat">
+
+                Start Chat
+
+            </button>
+
+        </div>
+
+        <!-- CHAT CONTENT -->
+
+        <div class="chat-content"
+            id="chatContent">
+
+            <!-- BODY -->
+
+            <div class="chat-body"
+                id="chatBody">
+
+                <div class="bot-message">
+
+                    👋 Welcome to Dumindu's Portfolio.<br><br>
+
+                    I can help you explore:
+
+                    <br><br>
+
+                    ✅ AI & Machine Learning Projects<br>
+                    ✅ SQL Experience<br>
+                    ✅ Dashboard Development<br>
+                    ✅ RPA Automation<br>
+                    ✅ Business Analysis Experience<br>
+                    ✅ Technical Skills<br>
+                    ✅ Contact Information
+
+                    <br><br>
+
+                    Ask me anything
+
+                </div>  
+
+            </div>
+
+            <!-- QUICK QUESTIONS -->
+
+            <div class="quick-questions">
+
+                <button onclick="quickQuestion('skills')">
+
+                    Skills
+
+                </button>
+
+                <button onclick="quickQuestion('projects')">
+
+                    Projects
+
+                </button>
+
+                <button onclick="quickQuestion('experience')">
+
+                    Experience
+
+                </button>
+
+                <button onclick="quickQuestion('contact')">
+
+                    Contact
+
+                </button>
+
+            </div>
+
+            <!-- INPUT -->
+
+            <div class="chat-input-area">
+
+                <input type="text"
+                    id="chatInput"
+                    placeholder="Ask about AI, SQL, Projects...">
+
+                <button id="sendMessage">
+
+                    <i class="fas fa-paper-plane"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
     <!-- JS -->
     <script src="script.js"></script>
-
+    
 </body>
 
 </html>
