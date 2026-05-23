@@ -2265,37 +2265,147 @@ section h2{
 
 @media(max-width:768px){
 
+    /* =========================
+   CHAT WINDOW
+========================= */
+
+.chatbot-container{
+
+    position:fixed;
+
+    right:25px;
+    bottom:110px;
+
+    width:380px;
+    max-width:92%;
+
+    height:550px;
+
+    background:#0f172a;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    display:none;
+
+    flex-direction:column;
+
+    z-index:999999999;
+
+    border:
+    1px solid rgba(255,255,255,0.1);
+
+    box-shadow:
+        0 0 25px rgba(0,247,255,0.35);
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
     .chatbot-container{
 
-        width:90% !important;
+        width:92% !important;
 
-        right:5% !important;
+        right:4% !important;
 
-        bottom:90px !important;
+        bottom:95px !important;
 
-        height:500px !important;
-
-        z-index:999999 !important;
-
-        z-index:999999;
+        height:75vh !important;
 
     }
 
+}
+
+    /* =========================
+   CHATBOT FLOATING BUTTON
+========================= */
+
+.chatbot-toggle{
+
+    position:fixed;
+
+    right:25px;
+    bottom:25px;
+
+    width:75px;
+    height:75px;
+
+    border-radius:50%;
+
+    background:
+    linear-gradient(
+        135deg,
+        #00f7ff,
+        #ff00ff
+    );
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+
+    font-size:32px;
+
+    cursor:pointer;
+
+    z-index:999999999;
+
+    box-shadow:
+        0 0 20px rgba(0,247,255,0.7),
+        0 0 40px rgba(255,0,255,0.5);
+
+    animation:chatFloat 3s ease-in-out infinite;
+
+}
+
+/* FLOATING EFFECT */
+
+@keyframes chatFloat{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+/* MOBILE FIX */
+
+@media(max-width:768px){
+
     .chatbot-toggle{
+
+        right:18px !important;
+
+        bottom:18px !important;
 
         width:65px !important;
         height:65px !important;
 
-        right:20px !important;
-        bottom:20px !important;
-
         font-size:28px !important;
 
-        z-index:999999 !important;
-
-        z-index:999999;
+        z-index:999999999 !important;
 
     }
+
+}
 
     .chat-header h3{
 
