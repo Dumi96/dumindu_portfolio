@@ -2259,3 +2259,60 @@ section h2{
     }
 
 }
+/* =========================
+   MOBILE CHATBOT FIX
+========================= */
+
+@media(max-width:768px){
+
+    .chatbot-container{
+
+        width:90% !important;
+
+        right:5% !important;
+
+        bottom:90px !important;
+
+        height:500px !important;
+
+        z-index:999999 !important;
+
+        z-index:999999;
+
+    }
+
+    .chatbot-toggle{
+
+        width:65px !important;
+        height:65px !important;
+
+        right:20px !important;
+        bottom:20px !important;
+
+        font-size:28px !important;
+
+        z-index:999999 !important;
+
+        z-index:999999;
+
+    }
+
+    .chat-header h3{
+
+        font-size:18px !important;
+
+    }
+
+    .chat-body{
+
+        height:320px !important;
+
+    }
+
+    .chat-input input{
+
+        font-size:16px !important;
+
+    }
+
+}
